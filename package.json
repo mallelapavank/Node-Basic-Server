@@ -1,0 +1,11 @@
+{
+  "name": "serverexample",
+  "version": "1.0.0",
+  "description": "setting up server with node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pavan Mallela",
+  "license": "ISC"
+}
