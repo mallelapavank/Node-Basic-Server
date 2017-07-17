@@ -1,10 +1,10 @@
 const http = require('http'); //http module
-const fs = require('fs'); //file system module
+const fileSystem = require('fs'); //file system module
 
 const hostname = '127.0.0.1';
 const port = 3000;
 
-fs.readFile('index.html', (err, html) => {
+fileSystem.readFile('index.html', (err, html) => {
   if(err){
     throw err;
   }
@@ -16,6 +16,6 @@ fs.readFile('index.html', (err, html) => {
   });
 
   server.listen(port, hostname, () => {
-    console.log("Server started on port " + port);
+    console.log("Server started on port no. " + port);
   });
 });
